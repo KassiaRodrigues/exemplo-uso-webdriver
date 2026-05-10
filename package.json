@@ -1,12 +1,21 @@
 {
-  "name": "Projeto1",
+  "name": "projeto1",
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "test": "mocha test/desafio.test.js" 
+    "test": "mocha test/desafio.test.js"
   },
   "dependencies": {
     "mocha": "^11.7.5",
-    "mochawesome": "^7.1.4"
-  }
+    "mochawesome": "^7.1.4",
+    "selenium-webdriver": "^4.43.0"
+  },
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [],
+  "author": "Kassia Rodrigues Alves",
+  "license": "ISC",
+  "description": "Automação de test."
 }
