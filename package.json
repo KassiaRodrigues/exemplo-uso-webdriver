@@ -1,0 +1,12 @@
+{
+  "name": "Projeto1",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "mocha test/desafio.test.js" 
+  },
+  "dependencies": {
+    "mocha": "^11.7.5",
+    "mochawesome": "^7.1.4"
+  }
+}
